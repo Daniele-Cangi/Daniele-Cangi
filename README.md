@@ -25,8 +25,10 @@ Designing and building intelligent systems at the intersection of agentic AI, de
 - [Quantum-Felix](https://github.com/Daniele-Cangi/Quantum-Felix) — Quantum‑inspired optimization and research utilities.
 
 ## Status & metrics
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Daniele-Cangi&show_icons=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Daniele-Cangi&layout=compact)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daniele-Cangi&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
+</p>
 
 ## Collaboration
 - Open to co‑development, benchmarking, integrations, and applied research
