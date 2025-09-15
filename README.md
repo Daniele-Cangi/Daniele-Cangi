@@ -2,6 +2,8 @@
   <img src="assets/hero.svg" alt="Daniele Cangi — Agentic AI, Decision Intelligence, Knowledge Graphs" width="100%" />
 </p>
 
+# Daniele Cangi
+
 Designing and building intelligent systems at the intersection of agentic AI, decision intelligence, and graph-based knowledge. I focus on compositional reasoning, orchestration, and optimization (including quantum‑inspired methods), translating research into production-grade tools and workflows.
 
 ## Featured work
@@ -34,6 +36,9 @@ Designing and building intelligent systems at the intersection of agentic AI, de
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" height="36" alt="Node.js" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="36" alt="React" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="36" alt="GitHub" />
+  <a href="https://huggingface.co/Nexus-Walker" title="Hugging Face profile">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/huggingface/huggingface-original.svg" height="36" alt="Hugging Face" />
+  </a>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36" alt="Docker" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="36" alt="Markdown/MkDocs" />
 </div>
