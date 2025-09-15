@@ -1,6 +1,44 @@
+<p align="center">
+  <img src="assets/hero.svg" alt="Daniele Cangi — Agentic AI, Decision Intelligence, Knowledge Graphs" width="100%" />
+</p>
+
 # Daniele Cangi
 
 Designing and building intelligent systems at the intersection of agentic AI, decision intelligence, and graph-based knowledge. I focus on compositional reasoning, orchestration, and optimization (including quantum‑inspired methods), translating research into production-grade tools and workflows.
+
+## Featured work
+<div align="center">
+  <a href="https://github.com/Daniele-Cangi/Reson-AI">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Reson-AI&theme=transparent&hide_border=true" alt="Reson-AI" />
+  </a>
+  <a href="https://github.com/Daniele-Cangi/Quantum-Felix">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Quantum-Felix&theme=transparent&hide_border=true" alt="Quantum-Felix" />
+  </a>
+</div>
+<div align="center">
+  <a href="https://github.com/Daniele-Cangi/AstroMind-4D">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=AstroMind-4D&theme=transparent&hide_border=true" alt="AstroMind-4D" />
+  </a>
+  <a href="https://github.com/Daniele-Cangi/AIpowerCoin-Public-Documentation-Collaboration-Portal">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=AIpowerCoin-Public-Documentation-Collaboration-Portal&theme=transparent&hide_border=true" alt="AIpowerCoin — Docs Portal" />
+  </a>
+</div>
+<div align="center">
+  <a href="https://github.com/Daniele-Cangi/Argos-Decision-Engine---Public-Documentation-">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Argos-Decision-Engine---Public-Documentation-&theme=transparent&hide_border=true" alt="Argos Decision Engine — Docs" />
+  </a>
+</div>
+
+## Tech stack
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36" alt="Python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="36" alt="TypeScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" height="36" alt="Node.js" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="36" alt="React" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="36" alt="GitHub" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36" alt="Docker" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="36" alt="Markdown/MkDocs" />
+</div>
 
 ## Focus areas
 - Agentic AI and LLM orchestration
@@ -16,13 +54,6 @@ Designing and building intelligent systems at the intersection of agentic AI, de
 - AstroMind-4D — Cognitive modeling for spatiotemporal systems
 - Quantum-Felix — Hybrid and quantum‑inspired research tooling
 - AIpowerCoin — Advanced system with public documentation and collaboration portal
-
-## Selected repositories
-- [AIpowerCoin — Docs Portal](https://github.com/Daniele-Cangi/AIpowerCoin-Public-Documentation-Collaboration-Portal) — Public documentation and collaboration portal for AIpowerCoin.
-- [Reson-AI](https://github.com/Daniele-Cangi/Reson-AI) — Agentic AI framework for structured reasoning and tool use.
-- [Argos Decision Engine — Docs](https://github.com/Daniele-Cangi/Argos-Decision-Engine---Public-Documentation-) — Public documentation for Argos decision engine.
-- [AstroMind-4D](https://github.com/Daniele-Cangi/AstroMind-4D) — Spatiotemporal (4D) cognitive modeling.
-- [Quantum-Felix](https://github.com/Daniele-Cangi/Quantum-Felix) — Quantum‑inspired optimization and research utilities.
 
 ## Status & metrics
 <p align="center">
