@@ -24,6 +24,10 @@ Designing and building intelligent systems at the intersection of agentic AI, de
 - [AstroMind-4D](https://github.com/Daniele-Cangi/AstroMind-4D) — Spatiotemporal (4D) cognitive modeling.
 - [Quantum-Felix](https://github.com/Daniele-Cangi/Quantum-Felix) — Quantum‑inspired optimization and research utilities.
 
+## Status & metrics
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Daniele-Cangi&show_icons=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Daniele-Cangi&layout=compact)
+
 ## Collaboration
 - Open to co‑development, benchmarking, integrations, and applied research
 - Contact: open an issue on any repository or DM on GitHub
