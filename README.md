@@ -7,7 +7,7 @@
 Designing and building intelligent systems at the intersection of agentic AI, decision intelligence, and graph-based knowledge. I focus on compositional reasoning, orchestration, and optimization (including quantum‑inspired methods), translating research into production-grade tools and workflows.
 
 ## Featured work
-div align="center">
+<div align="center">
   <a href="https://github.com/Daniele-Cangi/Reson-AI">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Reson-AI&theme=transparent&hide_border=true" alt="Reson-AI" />
   </a>
@@ -33,7 +33,7 @@ div align="center">
 </div>
 
 ## Tech stack
-div align="center">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36" alt="Python" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="36" alt="TypeScript" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" height="36" alt="Node.js" />
