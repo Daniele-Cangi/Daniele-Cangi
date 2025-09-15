@@ -2,7 +2,6 @@
   <img src="assets/hero.svg" alt="Daniele Cangi — Agentic AI, Decision Intelligence, Knowledge Graphs" width="100%" />
 </p>
 
-# Daniele Cangi
 
 Designing and building intelligent systems at the intersection of agentic AI, decision intelligence, and graph-based knowledge. I focus on compositional reasoning, orchestration, and optimization (including quantum‑inspired methods), translating research into production-grade tools and workflows.
 
