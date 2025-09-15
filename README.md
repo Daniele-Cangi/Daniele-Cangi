@@ -1,34 +1,29 @@
-# Hi, I'm Daniele 
+# Daniele Cangi
 
-I build intelligent systems that combine agents, decision engines, and (sometimes) quantum‑inspired methods. I like turning research ideas into practical tools: decision intelligence, agentic AI, knowledge graphs, and spatiotemporal modeling.
+Designing and building intelligent systems at the intersection of agentic AI, decision intelligence, and graph-based knowledge. I focus on compositional reasoning, orchestration, and optimization (including quantum‑inspired methods), translating research into production-grade tools and workflows.
 
-- 🔭 Active projects: Reson-AI, Argos Decision Engine, AstroMind-4D, Quantum-Felix, AIpowerCoin
-- 🧪 Interests: LLM agents, reasoning/orchestration, decision engines, quantum‑inspired optimization
-- 🌐 Collaboration: open to co-development, benchmarking, and production integrations
-- ✉️ Contact: open an issue on any repo or DM me on GitHub
+## Focus areas
+- Agentic AI and LLM orchestration
+- Decision engines and programmatic reasoning
+- Knowledge graphs and graph-based learning
+- Optimization and quantum‑inspired methods
+- Spatiotemporal and 4D modeling
+- Engineering: Python, TypeScript, GitHub Actions, MkDocs/Docusaurus
 
-## 🔗 Featured projects
+## Active projects
+- Reson-AI — Agentic AI framework for compositional reasoning and decision support
+- Argos Decision Engine — Decision intelligence engine and tooling
+- AstroMind-4D — Cognitive modeling for spatiotemporal systems
+- Quantum-Felix — Hybrid and quantum‑inspired research tooling
+- AIpowerCoin — Advanced system with public documentation and collaboration portal
 
-- [AIpowerCoin — Docs Portal](https://github.com/Daniele-Cangi/AIpowerCoin-Public-Documentation-Collaboration-Portal) — Advanced project; this is the public documentation and collaboration portal.
-- [Reson-AI](https://github.com/Daniele-Cangi/Reson-AI) — Agentic AI framework for compositional reasoning and decision support.
-- [Argos Decision Engine — Docs](https://github.com/Daniele-Cangi/Argos-Decision-Engine---Public-Documentation-) — Public documentation and guides for the Argos decision engine.
-- [AstroMind-4D](https://github.com/Daniele-Cangi/AstroMind-4D) — 4D cognitive modeling for spatiotemporal systems.
-- [Quantum-Felix](https://github.com/Daniele-Cangi/Quantum-Felix) — Hybrid and quantum-inspired tooling for practical research workflows.
+## Selected repositories
+- [AIpowerCoin — Docs Portal](https://github.com/Daniele-Cangi/AIpowerCoin-Public-Documentation-Collaboration-Portal) — Public documentation and collaboration portal for AIpowerCoin.
+- [Reson-AI](https://github.com/Daniele-Cangi/Reson-AI) — Agentic AI framework for structured reasoning and tool use.
+- [Argos Decision Engine — Docs](https://github.com/Daniele-Cangi/Argos-Decision-Engine---Public-Documentation-) — Public documentation for Argos decision engine.
+- [AstroMind-4D](https://github.com/Daniele-Cangi/AstroMind-4D) — Spatiotemporal (4D) cognitive modeling.
+- [Quantum-Felix](https://github.com/Daniele-Cangi/Quantum-Felix) — Quantum‑inspired optimization and research utilities.
 
-## 🧰 Tech stack & interests
-
-Agentic AI, LLM orchestration, graph/knowledge systems, reinforcement learning, scientific/quantum computing, Python/TypeScript, GitHub Actions, MkDocs/Docusaurus.
-
-## 📈 Status & metrics
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Daniele-Cangi&layout=compact)
-![Stats](https://github-readme-stats.vercel.app/api?username=Daniele-Cangi&show_icons=true)
-
-## 🤝 How to contribute
-
-- Check issues labeled `good first issue` or `help wanted`
-- Propose ideas via a Discussion or Issue
-- If a project helps you, leave a ⭐️ and share it
-
----
-Build, measure, learn — with a pinch of quantum exploration.
+## Collaboration
+- Open to co‑development, benchmarking, integrations, and applied research
+- Contact: open an issue on any repository or DM on GitHub
