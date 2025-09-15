@@ -8,11 +8,11 @@ Designing and building intelligent systems at the intersection of agentic AI, de
 
 ## Featured work
 <div align="center">
+  <a href="https://github.com/Daniele-Cangi/Nexus-240m-NSA">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Nexus-240m-NSA&theme=transparent&hide_border=true" alt="Nexus-240m-NSA" />
+  </a>
   <a href="https://github.com/Daniele-Cangi/Reson-AI">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Reson-AI&theme=transparent&hide_border=true" alt="Reson-AI" />
-  </a>
-  <a href="https://github.com/Daniele-Cangi/Quantum-Felix">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Quantum-Felix&theme=transparent&hide_border=true" alt="Quantum-Felix" />
   </a>
 </div>
 <div align="center">
@@ -27,8 +27,8 @@ Designing and building intelligent systems at the intersection of agentic AI, de
   <a href="https://github.com/Daniele-Cangi/Argos-Decision-Engine---Public-Documentation-">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Argos-Decision-Engine---Public-Documentation-&theme=transparent&hide_border=true" alt="Argos Decision Engine — Docs" />
   </a>
-  <a href="https://github.com/Daniele-Cangi/Nexus-240m-NSA">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Nexus-240m-NSA&theme=transparent&hide_border=true" alt="Nexus-240m-NSA" />
+  <a href="https://github.com/Daniele-Cangi/Quantum-Felix">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Quantum-Felix&theme=transparent&hide_border=true" alt="Quantum-Felix" />
   </a>
 </div>
 
