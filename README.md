@@ -7,7 +7,7 @@
 Designing and building intelligent systems at the intersection of agentic AI, decision intelligence, and graph-based knowledge. I focus on compositional reasoning, orchestration, and optimization (including quantum‑inspired methods), translating research into production-grade tools and workflows.
 
 ## Featured work
-<div align="center">
+div align="center">
   <a href="https://github.com/Daniele-Cangi/Reson-AI">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Reson-AI&theme=transparent&hide_border=true" alt="Reson-AI" />
   </a>
@@ -27,17 +27,20 @@ Designing and building intelligent systems at the intersection of agentic AI, de
   <a href="https://github.com/Daniele-Cangi/Argos-Decision-Engine---Public-Documentation-">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Argos-Decision-Engine---Public-Documentation-&theme=transparent&hide_border=true" alt="Argos Decision Engine — Docs" />
   </a>
+  <a href="https://github.com/Daniele-Cangi/Nexus-240m-NSA">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Nexus-240m-NSA&theme=transparent&hide_border=true" alt="Nexus-240m-NSA" />
+  </a>
 </div>
 
 ## Tech stack
-<div align="center">
+div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36" alt="Python" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="36" alt="TypeScript" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" height="36" alt="Node.js" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="36" alt="React" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="36" alt="GitHub" />
   <a href="https://huggingface.co/Nexus-Walker" title="Hugging Face profile">
-    <img src="https://cdn.simpleicons.org/huggingface" height="36" alt="Hugging Face" />
+    <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/huggingface.svg" height="36" alt="Hugging Face" />
   </a>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36" alt="Docker" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="36" alt="Markdown/MkDocs" />
