@@ -1,35 +1,9 @@
-<p align="center">
-  <img src="assets/hero.svg" alt="Daniele Cangi — Agentic AI, Decision Intelligence, Knowledge Graphs" width="100%" />
-</p>
+
 
 
 Designing and building intelligent systems at the intersection of agentic AI, decision intelligence, and graph-based knowledge. I focus on compositional reasoning, orchestration, and optimization (including quantum‑inspired methods), translating research into production-grade tools and workflows.
 
-## Featured work
-<div align="center">
-  <a href="https://github.com/Daniele-Cangi/Nexus-240m-NSA">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Nexus-240m-NSA&theme=transparent&hide_border=true" alt="Nexus-240m-NSA" />
-  </a>
-  <a href="https://github.com/Daniele-Cangi/Reson-AI">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Reson-AI&theme=transparent&hide_border=true" alt="Reson-AI" />
-  </a>
-</div>
-<div align="center">
-  <a href="https://github.com/Daniele-Cangi/AstroMind-4D">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=AstroMind-4D&theme=transparent&hide_border=true" alt="AstroMind-4D" />
-  </a>
-  <a href="https://github.com/Daniele-Cangi/AIpowerCoin-Public-Documentation-Collaboration-Portal">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=AIpowerCoin-Public-Documentation-Collaboration-Portal&theme=transparent&hide_border=true" alt="AIpowerCoin — Docs Portal" />
-  </a>
-</div>
-<div align="center">
-  <a href="https://github.com/Daniele-Cangi/Argos-Decision-Engine---Public-Documentation-">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Argos-Decision-Engine---Public-Documentation-&theme=transparent&hide_border=true" alt="Argos Decision Engine — Docs" />
-  </a>
-  <a href="https://github.com/Daniele-Cangi/Quantum-Felix">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Daniele-Cangi&repo=Quantum-Felix&theme=transparent&hide_border=true" alt="Quantum-Felix" />
-  </a>
-</div>
+
 
 ## Tech stack
 <div align="center">
