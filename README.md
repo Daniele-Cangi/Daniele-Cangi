@@ -29,7 +29,7 @@ Designing and building intelligent systems at the intersection of agentic AI, de
 - Decision engines and programmatic reasoning
 - Knowledge graphs and graph-based learning
 - Optimization and quantum‑inspired methods
-- Spatiotemporal and 4D modeling
+- Spatiotemporal
 - Cyber Security and forensic
 - Communication Protocols
 
