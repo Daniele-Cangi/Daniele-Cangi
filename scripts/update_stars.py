@@ -157,10 +157,10 @@ def main():
     print(f"\nTotal stars: {total_stars}", file=sys.stderr)
     
     # Update README
-    was_modified = update_readme(readme_path, total_stars)
+    update_readme(readme_path, total_stars)
     
-    # Exit with appropriate code
-    sys.exit(0 if was_modified else 0)
+    # Exit successfully
+    sys.exit(0)
 
 
 if __name__ == '__main__':

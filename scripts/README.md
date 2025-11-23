@@ -13,7 +13,7 @@ The `update_stars.py` script:
 
 ## Prerequisites
 
-- Python 3.11 or higher
+- Python 3.8 or higher (workflow uses 3.11)
 - `requests` library: `pip install requests`
 - GitHub token with `repo` scope (for API access)
 
