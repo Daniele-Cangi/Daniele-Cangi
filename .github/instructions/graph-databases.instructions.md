@@ -1,7 +1,7 @@
 ---
 applyTo:
   - "**/*.cypher"
-  - "**/*.cql"
+  - "**/*.cyp"
   - "**/*.graphql"
   - "**/*.gql"
 ---

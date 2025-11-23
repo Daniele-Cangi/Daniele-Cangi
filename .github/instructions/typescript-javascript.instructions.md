@@ -23,7 +23,7 @@ applyTo:
 
 ## TypeScript Best Practices
 
-- Enable strict mode in tsconfig.json
+- Enable the 'strict' compiler option in tsconfig.json
 - Define explicit types, avoid `any`
 - Use interfaces for object shapes, types for unions/intersections
 - Leverage generics for reusable components

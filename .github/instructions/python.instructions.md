@@ -18,7 +18,7 @@ applyTo:
 
 ## Best Practices
 
-- Always use type annotations (PEP 484)
+- Always use type annotations (PEP 484/526)
 - Prefer pathlib over os.path for file operations
 - Use context managers (with statements) for resource management
 - Implement proper error handling with specific exception types
