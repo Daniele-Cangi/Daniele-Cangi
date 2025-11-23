@@ -1,5 +1,10 @@
 Designing and building intelligent systems at the intersection of agentic AI, decision intelligence, and graph-based knowledge. I focus on compositional reasoning, orchestration, and optimization ([...]
 
+<!-- Calendario dei contributi -->
+<p align="center">
+  <img src="https://github.com/users/Daniele-Cangi/contributions" alt="Calendario dei contributi di Daniele" />
+</p>
+
 ## Tech stack
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36" alt="Python" />
@@ -12,7 +17,7 @@ Designing and building intelligent systems at the intersection of agentic AI, de
   </a>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36" alt="Docker" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="36" alt="Markdown/MkDocs" />
-
+  
   <!-- Nuovi stack -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="36" alt="PostgreSQL" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="36" alt="PyTorch" />
