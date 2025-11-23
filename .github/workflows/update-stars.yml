@@ -1,0 +1,59 @@
+name: Update Stars Count
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Run daily at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-stars:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests
+      
+      - name: Update stars count
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+          README_PATH: README.md
+          IGNORE_FORKS: 'true'
+        run: |
+          python scripts/update_stars.py
+      
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: update total stars in README'
+          title: 'chore: update total stars count'
+          body: |
+            This PR automatically updates the total stars count in README.md.
+            
+            The script fetches all public repositories and calculates the total number of stars received (excluding forks).
+            
+            🤖 This PR was created automatically by the update-stars workflow.
+          branch: update/stars-${{ github.run_number }}
+          delete-branch: true
+          labels: |
+            automated
+            documentation
