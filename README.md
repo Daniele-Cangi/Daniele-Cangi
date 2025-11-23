@@ -38,6 +38,10 @@ Designing and building intelligent systems at the intersection of agentic AI, de
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daniele-Cangi&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
 </p>
 
+<p align="center">
+  <strong>Total stars received:</strong> ⭐ <!-- STARS_COUNT_START -->0<!-- STARS_COUNT_END -->
+</p>
+
 ## Collaboration
 - Open to co‑development, benchmarking, integrations, and applied research
 - Contact: open an issue on any repository or DM on GitHub
