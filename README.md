@@ -34,8 +34,8 @@ Designing and building intelligent systems at the intersection of agentic AI, de
 
 ## Status & metrics
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daniele-Cangi&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=transparent&hide_border=true&cache_seconds=1800" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daniele-Cangi&layout=compact&theme=transparent&hide_border=true&cache_seconds=1800" alt="Top languages" />
 </p>
 
 <p align="center">
@@ -45,3 +45,4 @@ Designing and building intelligent systems at the intersection of agentic AI, de
 ## Collaboration
 - Open to co‑development, benchmarking, integrations, and applied research
 - Contact: open an issue on any repository or DM on GitHub
+
