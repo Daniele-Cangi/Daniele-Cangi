@@ -1,0 +1,44 @@
+name: Update Stars Auto
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Esegue ogni giorno a mezzanotte UTC
+  workflow_dispatch:      # Permette di lanciarlo a mano dal sito GitHub per test
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # FONDAMENTALE: Dà il permesso di fare commit
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          # Se il tuo script usa librerie specifiche (es. PyGithub), aggiungile qui sotto se non sono nel requirements.txt
+          # pip install requests PyGithub
+
+      - name: Run update script
+        run: python scripts/update_stars.py
+        # Assicurati che il tuo script si trovi davvero nella cartella 'scripts'
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          # Controlla se ci sono cambiamenti prima di committare per evitare errori
+          if git diff --staged --quiet; then
+            echo "Nessun cambiamento nelle stelle rilevato."
+          else
+            git commit -m "auto: update star count in README"
+            git push
+          fi
