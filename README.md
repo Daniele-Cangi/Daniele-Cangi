@@ -40,7 +40,7 @@ Designing and building intelligent systems at the intersection of agentic AI, de
 </p>
 
 <p align="center">
-  <strong>Total stars received:</strong> ⭐ <!-- STARS_COUNT_START -->44<!-- STARS_COUNT_END -->
+  <strong>Total stars received:</strong> ⭐ <!-- STARS_COUNT_START -->42<!-- STARS_COUNT_END -->
 </p>
 
 ## Collaboration
