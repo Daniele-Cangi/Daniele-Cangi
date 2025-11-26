@@ -1,4 +1,3 @@
-"""
 Designing and building intelligent systems at the intersection of agentic AI, decision intelligence, and graph-based knowledge. I focus on compositional reasoning, orchestration, and optimization ([...]
 
 ## Tech stack
@@ -46,5 +45,3 @@ Designing and building intelligent systems at the intersection of agentic AI, de
 ## Collaboration
 - Open to co‑development, benchmarking, integrations, and applied research
 - Contact: open an issue on any repository or DM on GitHub
-
-"""
