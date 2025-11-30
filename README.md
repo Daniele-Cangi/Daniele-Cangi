@@ -44,7 +44,7 @@ I focus on compositional reasoning, orchestration, and optimization (contact for
 </p>
 
 <p align="center">
-  <strong>Total stars received:</strong> ⭐ <!-- STARS_COUNT_START -->44<!-- STARS_COUNT_END -->
+  <strong>Total stars received:</strong> ⭐ <!-- STARS_COUNT_START -->36<!-- STARS_COUNT_END -->
 </p>
 
 ---
@@ -61,7 +61,7 @@ I focus on compositional reasoning, orchestration, and optimization (contact for
 </p>
 
 <p align="center">
-  <strong>Total stars received:</strong> ⭐ <!-- STARS_COUNT_START -->44<!-- STARS_COUNT_END -->
+  <strong>Total stars received:</strong> ⭐ <!-- STARS_COUNT_START -->36<!-- STARS_COUNT_END -->
 </p>
 
 ## Collaboration
