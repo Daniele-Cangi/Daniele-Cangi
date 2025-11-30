@@ -47,22 +47,6 @@ I focus on compositional reasoning, orchestration, and optimization (contact for
 
 ---
 
-**Profile Stats**
-
-| Metric        | Value                                     |
-|---------------|-------------------------------------------|
-| Total Stars   | <!-- STARS_COUNT_START -->0<!-- STARS_COUNT_END --> |
-| Total Commits | <!-- COMMITS_COUNT_START -->0<!-- COMMITS_COUNT_END --> |
-| Public Repos  | <!-- REPOS_COUNT_START -->0<!-- REPOS_COUNT_END --> |
-| Followers     | <!-- FOLLOWERS_COUNT_START -->0<!-- FOLLOWERS_COUNT_END --> |
-
----
-
-**Top languages:**  
-<!-- LANGS_START -->
-Python: XX%
-TypeScript: YY%
-<!-- LANGS_END -->
 
 ---
 
