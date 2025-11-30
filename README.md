@@ -31,23 +31,44 @@ I focus on compositional reasoning, orchestration, and optimization (contact for
 - Decision engines and programmatic reasoning
 - Knowledge graphs and graph-based learning
 - Optimization and quantum‑inspired methods
-- Spatiotemporal
-- Cyber Security and forensic
-- Communication Protocols
+- Spatiotemporal reasoning
+- Cybersecurity and forensic analysis
+- Communication protocols
 
 ---
 
 ## Status & metrics
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=transparent&hide_border=true&cache_seconds=1800" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daniele-Cangi&layout=compact&theme=transparent&hide_border=true&cache_seconds=1800" alt="Top languages" />
-</p>
 
-<p align="center">
-  <strong>Total stars received:</strong> ⭐ <!-- STARS_COUNT_START -->44<!-- STARS_COUNT_END -->
-</p>
+![GitHub Stars](https://img.shields.io/github/stars/Daniele-Cangi?style=flat&label=Stars)
+![GitHub forks](https://img.shields.io/github/forks/Daniele-Cangi/Daniele-Cangi?style=flat&label=Forks)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Daniele-Cangi/Daniele-Cangi?style=flat&label=Commits)
+![GitHub last commit](https://img.shields.io/github/last-commit/Daniele-Cangi/Daniele-Cangi?style=flat&label=Last%20Commit)
+![GitHub followers](https://img.shields.io/github/followers/Daniele-Cangi?style=flat&label=Followers)
 
 ---
+
+**Profile Stats**
+
+| Metric        | Value                                     |
+|---------------|-------------------------------------------|
+| Total Stars   | <!-- STARS_COUNT_START -->0<!-- STARS_COUNT_END --> |
+| Total Commits | <!-- COMMITS_COUNT_START -->0<!-- COMMITS_COUNT_END --> |
+| Public Repos  | <!-- REPOS_COUNT_START -->0<!-- REPOS_COUNT_END --> |
+| Followers     | <!-- FOLLOWERS_COUNT_START -->0<!-- FOLLOWERS_COUNT_END --> |
+
+---
+
+**Top languages:**  
+<!-- LANGS_START -->
+Python: XX%
+TypeScript: YY%
+<!-- LANGS_END -->
+
+---
+
+## Collaboration
+- Open to co‑development, benchmarking, integrations, and applied research
+- Contact: open an issue on any repository or DM on GitHub
 
 ## Collaboration
 - Open to co‑development, benchmarking, integrations, and applied research
