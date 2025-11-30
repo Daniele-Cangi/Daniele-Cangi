@@ -92,13 +92,61 @@ def calculate_total_stars(repos: List[Dict[str, Any]], ignore_forks: bool = True
     return total
 
 
-def update_readme(readme_path: str, total_stars: int) -> bool:
+def ensure_github_stats_section(content: str, username: str) -> str:
+    """
+    Ensure the GitHub stats and Top languages sections exist in README.
+    
+    Args:
+        content: Current README content
+        username: GitHub username for the stats URL
+    
+    Returns:
+        Content with stats sections ensured
+    """
+    modified = False
+    
+    # Check for GitHub stats image
+    stats_pattern = r'github-readme-stats\.vercel\.app/api\?username='
+    if not re.search(stats_pattern, content):
+        print("GitHub stats section missing, will be restored after ## Status & metrics", file=sys.stderr)
+        # Find ## Status & metrics section and add stats after it
+        status_pattern = r'(## Status & metrics\s*\n)'
+        stats_section = '''## Status & metrics
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username={username}&show_icons=true&theme=transparent&hide_border=true&cache_seconds=1800" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={username}&layout=compact&theme=transparent&hide_border=true&cache_seconds=1800" alt="Top languages" />
+</p>
+
+'''.format(username=username)
+        if re.search(status_pattern, content):
+            content = re.sub(status_pattern, stats_section, content)
+            modified = True
+            print("GitHub stats section restored", file=sys.stderr)
+    
+    # Check for Top languages image
+    top_langs_pattern = r'github-readme-stats\.vercel\.app/api/top-langs/'
+    if not re.search(top_langs_pattern, content):
+        print("Top languages section missing", file=sys.stderr)
+        # If stats exist but top langs don't, add it after stats
+        stats_img_pattern = r'(<img src="https://github-readme-stats\.vercel\.app/api\?[^"]*" alt="GitHub stats" />)'
+        top_langs_img = '\n  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={username}&layout=compact&theme=transparent&hide_border=true&cache_seconds=1800" alt="Top languages" />'.format(username=username)
+        if re.search(stats_img_pattern, content) and not re.search(top_langs_pattern, content):
+            content = re.sub(stats_img_pattern, r'\1' + top_langs_img, content)
+            modified = True
+            print("Top languages section restored", file=sys.stderr)
+    
+    return content
+
+
+def update_readme(readme_path: str, total_stars: int, username: str = 'Daniele-Cangi') -> bool:
     """
     Update the README.md file with the new total stars count.
+    Also ensures GitHub stats sections exist.
     
     Args:
         readme_path: Path to README.md file
         total_stars: New total stars count
+        username: GitHub username for stats URLs
     
     Returns:
         True if file was modified, False otherwise
@@ -106,28 +154,55 @@ def update_readme(readme_path: str, total_stars: int) -> bool:
     with open(readme_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
+    original_content = content
+    
+    # Ensure GitHub stats sections exist
+    content = ensure_github_stats_section(content, username)
+    
     # Pattern to match: <!-- STARS_COUNT_START -->number<!-- STARS_COUNT_END -->
     pattern = r'<!-- STARS_COUNT_START -->(\d+)<!-- STARS_COUNT_END -->'
     
     match = re.search(pattern, content)
     
     if not match:
-        print("Error: Could not find stars count placeholder in README.md", file=sys.stderr)
-        print("Expected format: <!-- STARS_COUNT_START -->number<!-- STARS_COUNT_END -->", file=sys.stderr)
-        sys.exit(1)
+        print("Warning: Could not find stars count placeholder in README.md", file=sys.stderr)
+        print("Adding placeholder after Status & metrics section", file=sys.stderr)
+        # Add the stars placeholder if missing
+        stars_placeholder = '''
+<p align="center">
+  <strong>Total stars received:</strong> ⭐ <!-- STARS_COUNT_START -->{stars}<!-- STARS_COUNT_END -->
+</p>
+'''.format(stars=total_stars)
+        # Try to add after the stats images
+        stats_section_end = r'(</p>\s*)(## Collaboration|$)'
+        if re.search(stats_section_end, content):
+            content = re.sub(stats_section_end, r'\1' + stars_placeholder + r'\n\2', content, count=1)
+        else:
+            # Just append to end
+            content += stars_placeholder
+        
+        with open(readme_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+        print(f"Added stars count placeholder with value: {total_stars}", file=sys.stdout)
+        return True
     
     old_count = int(match.group(1))
     
-    if old_count == total_stars:
+    # Update the stars count
+    content = re.sub(pattern, f'<!-- STARS_COUNT_START -->{total_stars}<!-- STARS_COUNT_END -->', content)
+    
+    # Check if anything changed
+    if content == original_content:
         print(f"No change needed. Total stars: {total_stars}", file=sys.stdout)
         return False
     
-    new_content = re.sub(pattern, f'<!-- STARS_COUNT_START -->{total_stars}<!-- STARS_COUNT_END -->', content)
-    
     with open(readme_path, 'w', encoding='utf-8') as f:
-        f.write(new_content)
+        f.write(content)
     
-    print(f"Updated stars count: {old_count} → {total_stars}", file=sys.stdout)
+    if old_count != total_stars:
+        print(f"Updated stars count: {old_count} → {total_stars}", file=sys.stdout)
+    else:
+        print("README sections restored/updated", file=sys.stdout)
     return True
 
 
@@ -157,7 +232,7 @@ def main():
     print(f"\nTotal stars: {total_stars}", file=sys.stderr)
     
     # Update README
-    update_readme(readme_path, total_stars)
+    update_readme(readme_path, total_stars, username)
     
     # Exit successfully
     sys.exit(0)

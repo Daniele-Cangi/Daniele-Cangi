@@ -1,0 +1,84 @@
+name: Update README Stats
+
+on:
+  schedule:
+    # Run every 12 hours
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+    # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Configure Git
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+      
+      - name: Pull latest changes
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Run update script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+          README_PATH: README.md
+          IGNORE_FORKS: 'true'
+        run: python scripts/update_stars.py
+      
+      - name: Commit and push changes
+        run: |
+          # Check if there are changes to commit
+          if git diff --quiet README.md; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          # Add changes
+          git add README.md
+          
+          # Commit with [skip ci] to prevent triggering other workflows
+          git commit -m "[skip ci] auto: update star count in README"
+          
+          # Pull latest changes and rebase, handling potential conflicts
+          git fetch origin main
+          git rebase origin/main || {
+            echo "Rebase failed, attempting to resolve..."
+            git rebase --abort
+            git pull --rebase origin main || git pull origin main
+          }
+          
+          # Push with retry logic
+          for i in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "Push successful"
+              exit 0
+            fi
+            echo "Push failed, attempt $i. Retrying after pull..."
+            sleep 2
+            git pull --rebase origin main || git pull origin main
+          done
+          
+          echo "Push failed after 3 attempts, but workflow did not fail"
+          exit 0
