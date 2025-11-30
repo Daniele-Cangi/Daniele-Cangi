@@ -61,24 +61,30 @@ jobs:
           # Commit with [skip ci] to prevent triggering other workflows
           git commit -m "[skip ci] auto: update star count in README"
           
-          # Pull latest changes and rebase, handling potential conflicts
+          # Pull latest changes with rebase strategy
+          echo "Fetching and rebasing on latest main..."
           git fetch origin main
-          git rebase origin/main || {
-            echo "Rebase failed, attempting to resolve..."
-            git rebase --abort
-            git pull --rebase origin main || git pull origin main
-          }
+          if ! git rebase origin/main; then
+            echo "::warning::Rebase failed, falling back to merge strategy"
+            git rebase --abort 2>/dev/null || true
+            if ! git pull origin main --no-edit; then
+              echo "::warning::Merge also failed, local changes may conflict with remote"
+              exit 0
+            fi
+          fi
           
           # Push with retry logic
           for i in 1 2 3; do
+            echo "Push attempt $i..."
             if git push origin HEAD:main; then
-              echo "Push successful"
+              echo "::notice::Push successful on attempt $i"
               exit 0
             fi
-            echo "Push failed, attempt $i. Retrying after pull..."
+            echo "::warning::Push failed on attempt $i, retrying..."
             sleep 2
-            git pull --rebase origin main || git pull origin main
+            git fetch origin main
+            git rebase origin/main 2>/dev/null || git pull origin main --no-edit 2>/dev/null || true
           done
           
-          echo "Push failed after 3 attempts, but workflow did not fail"
+          echo "::warning::Push failed after 3 attempts. README update will be retried in next scheduled run."
           exit 0
