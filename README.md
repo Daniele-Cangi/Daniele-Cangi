@@ -1,4 +1,7 @@
-Designing and building intelligent systems at the intersection of agentic AI, decision intelligence, and graph-based knowledge. I focus on compositional reasoning, orchestration, and optimization ([...]
+Designing and building intelligent systems at the intersection of agentic AI, decision intelligence, and graph-based knowledge.  
+I focus on compositional reasoning, orchestration, and optimization (contact for research/collab).
+
+---
 
 ## Tech stack
 <div align="center">
@@ -12,8 +15,6 @@ Designing and building intelligent systems at the intersection of agentic AI, de
   </a>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36" alt="Docker" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="36" alt="Markdown/MkDocs" />
-  
-  <!-- Nuovi stack -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="36" alt="PostgreSQL" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="36" alt="PyTorch" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="36" alt="TensorFlow" />
@@ -23,6 +24,8 @@ Designing and building intelligent systems at the intersection of agentic AI, de
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg" height="36" alt="Neo4j" />
 </div>
 
+---
+
 ## Focus areas
 - Agentic AI and LLM orchestration
 - Decision engines and programmatic reasoning
@@ -31,6 +34,25 @@ Designing and building intelligent systems at the intersection of agentic AI, de
 - Spatiotemporal
 - Cyber Security and forensic
 - Communication Protocols
+
+---
+
+## Status & metrics
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=transparent&hide_border=true&cache_seconds=1800" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daniele-Cangi&layout=compact&theme=transparent&hide_border=true&cache_seconds=1800" alt="Top languages" />
+</p>
+
+<p align="center">
+  <strong>Total stars received:</strong> ⭐ <!-- STARS_COUNT_START -->44<!-- STARS_COUNT_END -->
+</p>
+
+---
+
+## Collaboration
+- Open to co‑development, benchmarking, integrations, and applied research
+- Contact: open an issue on any repository or DM on GitHub
+
 
 ## Status & metrics
 <p align="center">
