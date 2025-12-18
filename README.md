@@ -1,10 +1,15 @@
 <div align="center">
   
+# Daniele Cangi
 
-[![Profile Views](https://komarev.com/ghpvc/?username=Daniele-Cangi&color=blueviolet&style=flat-square)](https://github.com/Daniele-Cangi)
-[![GitHub followers](https://img.shields.io/github/followers/Daniele-Cangi?style=flat-square&color=blueviolet)](https://github.com/Daniele-Cangi?tab=followers)
+[![Profile Views](https://komarev.com/ghpvc/?username=Daniele-Cangi&color=00ff00&style=flat-square)](https://github.com/Daniele-Cangi)
+[![GitHub followers](https://img.shields.io/github/followers/Daniele-Cangi?style=flat-square&color=00ff00&label=Followers)](https://github.com/Daniele-Cangi?tab=followers)
+
+**AI Systems Architect • Decision Intelligence • Graph-Based Knowledge**
 
 </div>
+
+---
 
 Designing and building intelligent systems at the intersection of **agentic AI**, **decision intelligence**, and **graph-based knowledge**.  
 I focus on compositional reasoning, orchestration, and optimization *(contact for research/collab)*.
@@ -14,12 +19,12 @@ I focus on compositional reasoning, orchestration, and optimization *(contact fo
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daniele-Cangi&layout=compact&theme=tokyonight&hide_border=true" height="180" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=highcontrast&hide_border=true&count_private=true&bg_color=000000&title_color=00ff00&icon_color=00ff00&text_color=ffffff" height="180" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daniele-Cangi&layout=compact&theme=highcontrast&hide_border=true&bg_color=000000&title_color=00ff00&text_color=ffffff" height="180" alt="Top Languages" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Daniele-Cangi&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Daniele-Cangi&theme=highcontrast&hide_border=true&background=000000&ring=00ff00&fire=00ff00&currStreakLabel=00ff00&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=888888" alt="GitHub Streak" />
 </div>
 
 ---
@@ -74,7 +79,7 @@ I focus on compositional reasoning, orchestration, and optimization *(contact fo
 ## 📈 Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Daniele-Cangi&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Daniele-Cangi&theme=high-contrast&hide_border=true&area=true&bg_color=000000&color=00ff00&line=00ff00&point=ffffff" alt="Activity Graph" />
 </div>
 
 ---
@@ -87,13 +92,13 @@ I focus on compositional reasoning, orchestration, and optimization *(contact fo
 
 📬 Contact: Open an issue on any repository or DM on GitHub
 
-[![GitHub](https://img.shields.io/badge/GitHub-Daniele--Cangi-181717?style=for-the-badge&logo=github)](https://github.com/Daniele-Cangi)
-[![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-Nexus--Walker-yellow?style=for-the-badge)](https://huggingface.co/Nexus-Walker)
+[![GitHub](https://img.shields.io/badge/GitHub-Daniele--Cangi-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Daniele-Cangi)
+[![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-Nexus--Walker-000000?style=for-the-badge)](https://huggingface.co/Nexus-Walker)
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00ff00&height=100&section=footer" />
 </div>
