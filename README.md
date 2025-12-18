@@ -1,6 +1,5 @@
 <div align="center">
   
-# 👋 Ciao, sono Daniele!
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Daniele-Cangi&color=blueviolet&style=flat-square)](https://github.com/Daniele-Cangi)
 [![GitHub followers](https://img.shields.io/github/followers/Daniele-Cangi?style=flat-square&color=blueviolet)](https://github.com/Daniele-Cangi?tab=followers)
@@ -21,14 +20,6 @@ I focus on compositional reasoning, orchestration, and optimization *(contact fo
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Daniele-Cangi&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
-
----
-
-## 🏆 Trofei GitHub
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Daniele-Cangi&theme=tokyonight&no-frame=true&column=7&margin-w=10" alt="Trophies" />
 </div>
 
 ---
