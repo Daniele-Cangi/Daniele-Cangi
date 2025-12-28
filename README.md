@@ -1,26 +1,27 @@
-# Daniele Cangi 👨‍💻
+# 👋 Hi, I'm Daniele Cangi
 
-Ph.D. student at University of Bari. My research focuses on combining Machine Learning and Evolutionary Computation to solve complex problems.
-
-## 🧑‍🔬 About Me
-
-- 🔬 **Research Interests**: Machine Learning, Evolutionary Algorithms, Optimization
-- 🎓 **Education**: Ph.D. in Computer Science (ongoing)
-- 📍 **Location**: Bari, Italy
-
-## 🚀 Projects
-
-Here are some of my work/projects:
-
-- **Evolutionary Multi-Objective Optimization**
-- **Deep Learning for bioinformatics**
-- **AutoML Techniques**
-
-## 📫 Contact
-
-- GitHub: [Daniele-Cangi](https://github.com/Daniele-Cangi)
-- Email: daniele.cangi@example.com
+I’m a software engineer interested in building **scalable**, **reliable**, and **maintainable** systems.
 
 ---
 
-Feel free to explore my repositories and reach out if you'd like to collaborate!
+## 🚀 Focus Areas
+
+| Area | Topics |
+| --- | --- |
+| **Backend** | Distributed systems, APIs, microservices |
+| **Cloud** | AWS, containers, CI/CD |
+| **Data** | Databases, data modeling, performance |
+| **Craft** | Clean code, testing, architecture |
+
+---
+
+## 🔗 Links
+
+- GitHub: https://github.com/Daniele-Cangi
+- LinkedIn: https://www.linkedin.com/in/daniele-cangi/
+
+---
+
+## 📫 Contact
+
+Feel free to reach out via LinkedIn.
