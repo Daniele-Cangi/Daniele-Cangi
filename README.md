@@ -21,12 +21,12 @@ I focus on compositional reasoning, orchestration, and optimization *(contact fo
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=highcontrast&hide_border=true&count_private=true&bg_color=000000&title_color=00ff00&icon_color=00ff00&text_color=ffffff" height="165" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daniele-Cangi&layout=compact&theme=highcontrast&hide_border=true&bg_color=000000&title_color=00ff00&text_color=ffffff" height="165" alt="top langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=highcontrast&hide_border=true&count_private=true&bg_color=000000&title_color=00ff00&icon_color=00ff00&text_color=ffffff&cache_seconds=21600&v=1" height="165" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daniele-Cangi&layout=compact&theme=highcontrast&hide_border=true&bg_color=000000&title_color=00ff00&text_color=ffffff&cache_seconds=21600&v=1" height="165" alt="top langs" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Daniele-Cangi&theme=highcontrast&hide_border=true&background=000000&ring=00ff00&fire=00ff00&currStreakLabel=00ff00&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff" alt="streak" />
+  <img src="https://streak-stats.demolab.com?user=Daniele-Cangi&theme=highcontrast&hide_border=true&background=000000&ring=00ff00&fire=00ff00&currStreakLabel=00ff00&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&v=1" alt="streak" />
 </div>
 
 ---
