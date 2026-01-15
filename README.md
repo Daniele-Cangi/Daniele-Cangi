@@ -17,7 +17,6 @@ Designing and building intelligent systems at the intersection of **agentic AI**
 I focus on compositional reasoning, orchestration, and optimization *(contact for research/collab)*.
 
 ---
-Total Stars: <!-- STARS_COUNT_START -->0<!-- STARS_COUNT_END -->
 
 ## 📊 GitHub Stats
 
