@@ -21,3 +21,9 @@
 ## GitHub Stats Extended — public owner/org/collaborator roles
 
 ![GitHub Stats Extended Broader Roles](https://github-stats-extended.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=transparent&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR)
+
+## GitHub Stats Extended — fullest coverage diagnostic
+
+> After enabling **GitHub Private Access** in the GitHub Stats Extended Wizard, use this card to compare all-commit history with OWNER + ORGANIZATION_MEMBER + COLLABORATOR roles. The service-side private access authorization is what allows private contributions to enter the calculation; no private repository names or tokens are embedded in this Markdown.
+
+![GitHub Stats Extended Full Coverage](https://github-stats-extended.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=transparent&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&rank_icon=percentile)
