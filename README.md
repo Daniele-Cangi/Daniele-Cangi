@@ -6,7 +6,7 @@
 
 **Build → Measure → Attack assumptions → Verify → Restrict claims → Harden**
 
-[![Mentioned in Awesome](https://awesome.re/mentioned-badge.svg)](https://github.com/OpenSourceVideoGames/list#rpg)
+[![Featured in OpenSourceVideoGames](https://img.shields.io/badge/FEATURED_IN-OpenSourceVideoGames-8bd5ca?style=for-the-badge&logo=github&logoColor=111111)](https://github.com/OpenSourceVideoGames/list#rpg)
 
 ## Current work
 
