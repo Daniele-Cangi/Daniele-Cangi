@@ -6,6 +6,8 @@
 
 **Build → Measure → Attack assumptions → Verify → Restrict claims → Harden**
 
+[![Mentioned in Awesome](https://awesome.re/mentioned-badge.svg)](https://github.com/OpenSourceVideoGames/list#rpg)
+
 ## Current work
 
 ### [XCP Studio](https://xcpstudio.com)
