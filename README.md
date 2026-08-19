@@ -6,8 +6,6 @@
 
 **Build → Measure → Attack assumptions → Verify → Restrict claims → Harden**
 
-[![Featured in OpenSourceVideoGames](https://img.shields.io/badge/FEATURED_IN-OpenSourceVideoGames-8bd5ca?style=for-the-badge&logo=github&logoColor=111111)](https://github.com/OpenSourceVideoGames/list#rpg)
-
 ## Current work
 
 ### [XCP Studio](https://xcpstudio.com)
@@ -47,5 +45,8 @@ Some projects are developed independently and others through [UnityLoop](https:/
 <div align="center">
   <a href="https://github.com/Daniele-Cangi">
     <img src="https://komarev.com/ghpvc/?username=Daniele-Cangi&color=00b7ff&style=flat-square" alt="Profile Views" />
+  </a>
+  <a href="https://github.com/OpenSourceVideoGames/list#rpg">
+    <img src="https://img.shields.io/badge/FEATURED_IN-OpenSourceVideoGames-8bd5ca?style=flat-square&logo=github&logoColor=111111" alt="Featured in OpenSourceVideoGames" />
   </a>
 </div>
