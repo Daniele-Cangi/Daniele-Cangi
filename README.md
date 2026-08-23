@@ -32,12 +32,6 @@ Legal evidence and state infrastructure built around Danish legal sources, combi
 
 A Denmark-focused roommate and room-matching platform with server-authoritative matching, privacy controls and mobile product infrastructure.
 
-## The common thread
-
-The domains change, but the method is consistent: build the system, observe where the model stops matching reality, make the assumptions explicit, strengthen the evidence, and change the architecture when necessary.
-
-Some projects are developed independently and others through [UnityLoop](https://www.unityloop.ai/).
-
 [Hugging Face](https://huggingface.co/Nexus-Walker) · [LinkedIn](https://www.linkedin.com/in/daniele-cangi/)
 
 ---
