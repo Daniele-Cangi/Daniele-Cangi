@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="250" viewBox="0 0 1500 250" role="img" aria-labelledby="title desc">
   <title id="title">Systems fail where assumptions begin.</title>
   <desc id="desc">Minimal dark editorial banner with a fractured analytical grid and the statement Systems fail where assumptions begin.</desc>
   <defs>
@@ -23,36 +23,36 @@
     </filter>
   </defs>
 
-  <rect width="1500" height="500" fill="url(#bg)"/>
-  <rect x="0" y="18" width="780" height="420" fill="url(#grid)" opacity="0.72"/>
-  <rect width="1500" height="500" filter="url(#grain)" opacity="0.32"/>
+  <rect width="1500" height="250" fill="url(#bg)"/>
+  <rect x="0" y="9" width="780" height="218" fill="url(#grid)" opacity="0.72"/>
+  <rect width="1500" height="250" filter="url(#grain)" opacity="0.32"/>
 
   <!-- fractured right-hand plane -->
-  <path d="M1120 -20 L1008 246 L930 500 H1500 V-20 Z" fill="url(#rightPanel)" opacity="0.94"/>
-  <path d="M1123 -20 L1013 246 L935 500" fill="none" stroke="#88b9d8" stroke-width="1.6" opacity="0.86"/>
-  <path d="M1114 -20 L1002 241 L926 500" fill="none" stroke="#d8e8f2" stroke-width="0.55" opacity="0.18"/>
+  <path d="M1120 -10 L1008 123 L930 250 H1500 V-10 Z" fill="url(#rightPanel)" opacity="0.94"/>
+  <path d="M1123 -10 L1013 123 L935 250" fill="none" stroke="#88b9d8" stroke-width="1.6" opacity="0.86"/>
+  <path d="M1114 -10 L1002 121 L926 250" fill="none" stroke="#d8e8f2" stroke-width="0.55" opacity="0.18"/>
 
   <!-- analytical baseline interrupted at the fracture -->
-  <path d="M0 365 H891" stroke="#8db4cb" stroke-width="1" opacity="0.5"/>
-  <path d="M891 365 L921 365" stroke="#8db4cb" stroke-width="1" opacity="0.17" stroke-dasharray="3 7"/>
+  <path d="M0 202 H891" stroke="#8db4cb" stroke-width="1" opacity="0.5"/>
+  <path d="M891 202 L921 202" stroke="#8db4cb" stroke-width="1" opacity="0.17" stroke-dasharray="3 7"/>
   <g stroke="#8db4cb" stroke-width="1" opacity="0.42" fill="none">
-    <path d="M920 362 l10 -5 l9 7 l8 -12 l12 5"/>
-    <path d="M927 369 l8 5 l7 -3 l9 7"/>
-    <path d="M936 355 l4 -8 l6 3"/>
+    <path d="M920 199 l10 -5 l9 7 l8 -12 l12 5"/>
+    <path d="M927 206 l8 5 l7 -3 l9 7"/>
+    <path d="M936 192 l4 -8 l6 3"/>
   </g>
   <g fill="#8db4cb" opacity="0.4">
-    <circle cx="922" cy="363" r="1.6"/><circle cx="934" cy="355" r="1.2"/><circle cx="946" cy="371" r="1.5"/>
-    <circle cx="955" cy="358" r="1"/><circle cx="938" cy="379" r="1.1"/>
+    <circle cx="922" cy="200" r="1.6"/><circle cx="934" cy="192" r="1.2"/><circle cx="946" cy="208" r="1.5"/>
+    <circle cx="955" cy="195" r="1"/><circle cx="938" cy="216" r="1.1"/>
   </g>
 
   <!-- restrained alignment marks -->
   <g stroke="#aeb9c2" stroke-width="0.8" opacity="0.13">
-    <path d="M64 78 H330"/><path d="M64 428 H430"/><path d="M64 78 V185"/>
-    <path d="M330 78 V118"/><path d="M430 428 V390"/>
+    <path d="M64 39 H330"/><path d="M64 226 H430"/><path d="M64 39 V92"/>
+    <path d="M330 39 V59"/><path d="M430 226 V205"/>
   </g>
 
   <!-- statement -->
-  <text x="82" y="305" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="400" fill="#edf0f2" textLength="1338" lengthAdjust="spacingAndGlyphs">
+  <text x="82" y="158" font-family="Georgia, 'Times New Roman', serif" font-size="74" font-weight="400" fill="#edf0f2" textLength="1338" lengthAdjust="spacingAndGlyphs">
     <tspan>Systems fail where </tspan><tspan fill="#83b5d8">assumptions</tspan><tspan> begin</tspan><tspan fill="#83b5d8">.</tspan>
   </text>
 </svg>
