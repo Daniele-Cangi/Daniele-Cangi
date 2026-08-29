@@ -22,6 +22,8 @@ A procedural CAD and world-generation system for Roblox.
 
 WorldLoop evolved from an architecture generator into a CAD-first system for creating editable buildings, terrain and procedural environments, with deterministic delivery into Roblox Studio.
 
+[![Mentioned in Awesome MagicTools](https://awesome.re/mentioned-badge.svg)](https://github.com/ellisonleao/magictools#terrain-generators)
+
 ## Other product work
 
 **Co-author — [LLegal](https://llegal.unityloop.ai/)**
