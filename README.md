@@ -45,4 +45,7 @@ A Denmark-focused roommate and room-matching platform with server-authoritative 
   <a href="https://github.com/OpenSourceVideoGames/list#rpg">
     <img src="https://img.shields.io/badge/FEATURED_IN-OpenSourceVideoGames-8bd5ca?style=flat-square&logo=github&logoColor=111111" alt="Featured in OpenSourceVideoGames" />
   </a>
+  <a href="https://user-badge.committers.top/denmark/Daniele-Cangi">
+    <img src="https://user-badge.committers.top/denmark/Daniele-Cangi.svg" alt="committers.top Denmark rank" />
+  </a>
 </div>
