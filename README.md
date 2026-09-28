@@ -42,14 +42,8 @@ A Denmark-focused roommate and room-matching platform with server-authoritative 
   <a href="https://github.com/Daniele-Cangi">
     <img src="https://komarev.com/ghpvc/?username=Daniele-Cangi&color=00b7ff&style=flat-square" alt="Profile Views" />
   </a>
-  <a href="https://github.com/OpenSourceVideoGames/list#rpg">
-    <img src="https://img.shields.io/badge/LISTED_IN-OpenSourceVideoGames-8bd5ca?style=flat-square&logo=github&logoColor=111111" alt="Listed in OpenSourceVideoGames" />
-  </a>
-  <a href="https://github.com/Trilarion/opensourcegames/blob/master/entries/civic_nightmare.md">
-    <img src="https://img.shields.io/badge/LISTED_IN-OpenSourceGames-8bd5ca?style=flat-square&logo=github&logoColor=111111" alt="Listed in OpenSourceGames" />
-  </a>
-  <a href="https://github.com/up-for-grabs/up-for-grabs.net/blob/master/_data/projects/civic-nightmare.yml">
-    <img src="https://img.shields.io/badge/LISTED_ON-Up_for_Grabs-8bd5ca?style=flat-square&logo=github&logoColor=111111" alt="Listed on Up for Grabs" />
+  <a href="https://github.com/Daniele-Cangi/civic-nightmare#open-source-listings">
+    <img src="https://img.shields.io/badge/LISTED_IN-3_OPEN_SOURCE_DIRECTORIES-8bd5ca?style=flat-square&logo=github&logoColor=111111" alt="Civic Nightmare listed in 3 open source directories" />
   </a>
   <a href="https://user-badge.committers.top/denmark/Daniele-Cangi">
     <img src="https://user-badge.committers.top/denmark/Daniele-Cangi.svg" alt="committers.top Denmark rank" />
