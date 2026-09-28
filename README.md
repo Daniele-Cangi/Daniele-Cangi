@@ -45,6 +45,9 @@ A Denmark-focused roommate and room-matching platform with server-authoritative 
   <a href="https://github.com/Daniele-Cangi/civic-nightmare#open-source-listings">
     <img src="https://img.shields.io/badge/LISTED_IN-3_OPEN_SOURCE_DIRECTORIES-8bd5ca?style=flat-square&logo=github&logoColor=111111" alt="Civic Nightmare listed in 3 open source directories" />
   </a>
+  <a href="https://github.com/ai-for-developers/awesome-ai-coding-tools#coding-agents">
+    <img src="https://img.shields.io/badge/DERIVATIVE-LISTED_IN_AWESOME_AI_CODING_TOOLS-8bd5ca?style=flat-square&logo=github&logoColor=111111" alt="Derivative listed in Awesome AI Coding Tools" />
+  </a>
   <a href="https://user-badge.committers.top/denmark/Daniele-Cangi">
     <img src="https://user-badge.committers.top/denmark/Daniele-Cangi.svg" alt="committers.top Denmark rank" />
   </a>
