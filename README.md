@@ -4,7 +4,6 @@
 
 **Independent Systems Researcher & Builder**
 
-**Build → Measure → Attack assumptions → Verify → Restrict claims → Harden**
 
 ## Current work
 
