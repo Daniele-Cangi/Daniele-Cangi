@@ -10,11 +10,11 @@
 
 ### [XCP Studio](https://xcpstudio.com)
 
-An experimental source-to-target adaptation system using Xbox Series X as a real constrained execution target.
+XCP turns an Xbox Series X in Developer Mode into a programmable execution target controlled from a Windows PC.
 
-XCP began as a deterministic compute worker and evolved into a broader system for source observation, Typed Semantic IR, constrained target execution, differential analysis, causal attribution and evidence-bound equivalence.
+Software and compute workloads can be prepared in XCP Studio, sent to the console, executed through supported CPU/GPU paths, and returned with structured results and evidence. Coding agents can use the same workflow to create, adapt, test and iterate on projects without running unrestricted code on the Xbox.
 
-Development is currently private; selected research artifacts and reproducible evidence may be released separately.
+[Open-source repository](https://github.com/Daniele-Cangi/xcp-xbox)
 
 ### [WorldLoop](https://worldloop.io)
 
@@ -39,9 +39,6 @@ A Denmark-focused roommate and room-matching platform with server-authoritative 
 ---
 
 <div align="center">
-  <a href="https://github.com/Daniele-Cangi">
-    <img src="https://komarev.com/ghpvc/?username=Daniele-Cangi&color=00b7ff&style=flat-square" alt="Profile Views" />
-  </a>
   <a href="https://github.com/Daniele-Cangi/civic-nightmare#open-source-listings">
     <img src="https://img.shields.io/badge/LISTED_IN-3_OPEN_SOURCE_DIRECTORIES-8bd5ca?style=flat-square&logo=github&logoColor=111111" alt="Civic Nightmare listed in 3 open source directories" />
   </a>
@@ -50,5 +47,8 @@ A Denmark-focused roommate and room-matching platform with server-authoritative 
   </a>
   <a href="https://user-badge.committers.top/denmark/Daniele-Cangi">
     <img src="https://user-badge.committers.top/denmark/Daniele-Cangi.svg" alt="committers.top Denmark rank" />
+  </a>
+  <a href="https://github.com/Daniele-Cangi">
+    <img src="https://komarev.com/ghpvc/?username=Daniele-Cangi&color=00b7ff&style=flat-square" alt="Profile Views" />
   </a>
 </div>
