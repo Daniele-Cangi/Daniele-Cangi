@@ -9,11 +9,11 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Fetch private-access stats
+      - name: Fetch private-access stats cache-busted
         shell: bash
         run: |
           set -euo pipefail
-          url="https://github-stats-extended.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=transparent&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&rank_icon=percentile"
+          url="https://github-stats-extended.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=transparent&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&rank_icon=percentile&card_width=501"
           curl -fsSL --retry 3 --retry-delay 2 "$url" -o stats.svg
           python - <<'PY'
           import html, re
