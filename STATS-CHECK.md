@@ -6,7 +6,7 @@
 
 The live probe on 2026-10-02 compared the same account against four GitHub Stats Extended configurations.
 
-**Best result:** broader public roles, without `include_all_commits=true`.
+**Best public result:** broader roles, without `include_all_commits=true`.
 
 ![GitHub Stats Extended Best Public Result](https://github-stats-extended.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=transparent&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&rank_icon=percentile)
 
@@ -18,7 +18,19 @@ The live probe on 2026-10-02 compared the same account against four GitHub Stats
 - Issues counted: **79**
 - Contributed to: **40**
 
-## Comparison
+## Private Access test
+
+GitHub Stats Extended can include private contributions after the account authorizes **GitHub Private Access** in its Wizard.
+
+The test card intentionally keeps the best-performing public query unchanged:
+
+![GitHub Stats Extended Private Access Test](https://github-stats-extended.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=transparent&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&rank_icon=percentile)
+
+After Private Access is authorized service-side, this same card is the one to re-check. No private repository names or credentials are stored in this Markdown.
+
+Wizard: https://github-stats-extended.vercel.app/frontend
+
+## Public comparison
 
 | Configuration | Rank | Percentile | Stars | Commits | PRs | Issues |
 |---|---:|---:|---:|---:|---:|---:|
@@ -46,7 +58,3 @@ The live probe on 2026-10-02 compared the same account against four GitHub Stats
 ![GitHub Stats Extended All Commits And Roles](https://github-stats-extended.vercel.app/api?username=Daniele-Cangi&show_icons=true&theme=transparent&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&rank_icon=percentile)
 
 > Note: the non-monotonic result from `include_all_commits=true` is intentional to keep visible for diagnosis. It should not be assumed to mean “more history = more counted activity” on this service without checking its query behavior.
-
-## Awesome GitHub Stats
-
-![Awesome GitHub Stats](https://awesome-github-stats.azurewebsites.net/user-stats/Daniele-Cangi?cardType=level&fontFamily=&preferLogin=false)
